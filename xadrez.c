@@ -103,4 +103,5 @@ void moverPecaRecursivo(int movimentosRestantes, char* direcao) {
     }
     printf("Movendo para %s...\n", direcao);
     moverPecaRecursivo(movimentosRestantes - 1, direcao);
+    
 }
