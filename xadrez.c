@@ -29,7 +29,7 @@ int main() {
     if (pecaValida) {
         if (strcmp(PecaDeXadrez, "Cavalo") == 0) {
             int movimentoCavalo;
-            int i;
+            int i; 
 
             printf("Escolha o movimento do Cavalo (1-Frente-Dir, 2-Frente-Esq, 3-Dir-Frente, 4-Dir-Tras): \n");
             scanf("%d", &movimentoCavalo);
